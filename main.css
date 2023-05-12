@@ -1,0 +1,1403 @@
+html {
+  /* 62.5% = 10px 
+    10px = 1rem */
+  font-size: 62.5%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap");
+.font {
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  height: 8.1rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(101, 101, 101, 0.2));
+  background: #ffffff;
+}
+
+.LogoContainer {
+  display: inline;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.Logo {
+  font-family: "Lobster", cursive;
+  color: #636363;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 0.5rem 0.5rem #23c2c2;
+  display: inline;
+  margin-left: 9.6rem;
+  cursor: default;
+  transition: 0.5s;
+  line-height: 6.2rem;
+}
+
+.NavigationBar {
+  display: inline;
+  float: right;
+  margin: 3.5rem 9.1rem 3.5rem 0;
+}
+
+.RemoveTxTDecoration {
+  text-decoration: none;
+}
+
+.NavigationButton {
+  text-decoration: none;
+  display: inline;
+  font-size: 1.57rem;
+  text-align: center;
+  color: #303134;
+  padding: 1.4rem 2.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.NavigationButton:hover {
+  background-color: #e6e3e3;
+  border-radius: 0.5rem;
+}
+
+.Home {
+  font-weight: bold;
+}
+
+.SectionOne {
+  background-image: url(./Bimages/girl\ with\ strawhat.jpg);
+  background-size: 100% 110%;
+  background-color: #2fadaa;
+  background-blend-mode: soft-light;
+  padding: 0px 0 12rem 0;
+}
+
+.Person199Dollar {
+  max-width: 28.7rem;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #006cd1;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(./Simages/cloud.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  cursor: default;
+  padding: 11rem 0 4rem 0;
+}
+
+.DiscoverGreece {
+  font-family: "Arial";
+  font-size: 7.87rem;
+  text-align: center;
+  color: #ffffff;
+  cursor: default;
+  margin-top: 2rem;
+}
+
+.LeftRightButtonContainer {
+  display: block;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 95%;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.button {
+  width: 3.3rem;
+  height: 3.3rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(101, 101, 101, 0.2));
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #2f2f2f;
+  transition: 0.5s;
+  line-height: 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.button:hover {
+  background-color: #9b9797;
+  color: #ffffff;
+}
+
+.UniqueExperience {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 6rem;
+}
+
+.SectionTwo {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 4rem;
+  max-width: 95rem;
+  margin: 9rem auto 0;
+}
+
+.ServiceCards {
+  min-height: 34rem;
+  max-width: 30rem;
+  outline: 0.5rem solid #ffff;
+  background-color: rgb(247, 247, 247);
+  border-radius: 0.5rem;
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+.ServiceCards:hover {
+  box-shadow: 2rem 2rem 3rem 1rem #afafaf;
+}
+
+.ServiceCardIMG {
+  width: 100%;
+  height: 21rem;
+}
+
+.ServiceCardsTitle {
+  font-size: 2rem;
+  color: #1a1a1b;
+  cursor: default;
+  margin-top: 1.8rem;
+  margin-left: 0.5rem;
+}
+
+.ServiceCardsDescription {
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  color: #8d8d8d;
+  margin-top: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.SectionThree {
+  background-image: url(./Bimages/palms.jpg);
+  background-blend-mode: soft-light;
+  background-color: #1e1e1e;
+  margin-top: 4.9rem;
+  background-size: 100% 100%;
+}
+
+.RecomendationSiteDiscover {
+  cursor: default;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 6.7rem 0 1.8rem 0;
+}
+
+.RecomendationForVideo {
+  cursor: default;
+  font-size: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Video {
+  max-width: 66.3rem;
+  height: 31.4rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 6.3rem;
+  border-bottom: 0.4rem solid #4b54fa;
+  box-shadow: 0.4rem 0 1rem 0.5rem rgb(146, 146, 146),
+    -0.4rem -0.4rem 1rem 0.5rem rgb(146, 146, 146);
+}
+
+.SectionFour {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10.7rem;
+  border-bottom: 0.1rem solid #ebebeb;
+  height: 20.5rem;
+}
+
+.ProgressCard {
+  max-width: 16.1rem;
+  max-height: 14rem;
+}
+
+.ProgressNumber {
+  font-family: "Lato", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #1a1a1b;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: default;
+}
+
+.ProgressType {
+  font-size: 1.6rem;
+  color: #1a1a1b;
+  margin-top: 0.7rem;
+  text-align: center;
+}
+
+.Icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.star {
+  max-width: 5.6rem;
+  max-height: 5.3rem;
+}
+
+.eiffel {
+  max-width: 6.8rem;
+  max-height: 5.3rem;
+}
+
+.globus {
+  max-width: 4rem;
+  max-height: 5.3rem;
+}
+
+.buildings {
+  max-width: 5.5rem;
+  max-height: 4.5rem;
+}
+
+.SectionFifth {
+  max-width: 86.3rem;
+  margin: 6.6rem auto 0;
+}
+
+.Offer {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #8d8d8d;
+  cursor: default;
+}
+
+.PopularTour {
+  font-size: 2.6rem;
+  text-align: center;
+  color: #1a1a1b;
+  text-decoration: underline;
+  text-decoration-color: #4b54fa;
+  text-decoration-style: wavy;
+  margin-top: 1rem;
+  cursor: default;
+}
+
+.ContainerForFlexBox {
+  display: flex;
+  margin-top: 7.8rem;
+  justify-content: space-between;
+}
+
+.PopularTourCard {
+  width: 26.7rem;
+  min-height: 35.8rem;
+  filter: drop-shadow(0rem 0rem 0.6rem rgba(101, 101, 101, 0.2));
+  background: #ffffff;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.PopularTourCard:hover {
+  width: 29rem;
+  height: 37rem;
+  box-shadow: 2rem 2rem 3rem 1rem #cecece;
+}
+
+.BackGround {
+  background-size: 100% 26rem;
+  padding: 1rem 0 0 1rem;
+  height: 23.6rem;
+}
+
+.Greece {
+  background-image: url(./Bimages/Greece.jpg);
+}
+
+.Phuket {
+  background-image: url(./Bimages/Phuket.jpg);
+}
+
+.Paris {
+  background-image: url(./Bimages/Paris.jpg);
+}
+
+.YellowAttention {
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #1a1a1b;
+  border: none;
+  background-color: #fed701;
+  max-width: 9.8rem;
+  max-height: 2.5rem;
+}
+
+.Size {
+  max-width: 6.7rem;
+}
+
+.PriceOnePerson {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  color: #1a1a1b;
+  text-align: center;
+}
+
+.PlaceForTour {
+  font-size: 1.8rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  color: #4b54fa;
+}
+
+.TourDuration {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #1a1a1b;
+  margin-top: 1rem;
+}
+
+.SectionSixth {
+  width: 100%;
+  margin-top: 7.1rem;
+  background-color: #2fadaa;
+  background-blend-mode: soft-light;
+  padding-bottom: 10rem;
+  background-image: url(./Bimages/seasport.png);
+  background-size: 100% 55rem;
+}
+
+.discount {
+  font-size: 3.4rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 7.5rem;
+  cursor: default;
+}
+
+.permission {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 2rem;
+  cursor: default;
+}
+
+.EmailSubmitContainer {
+  margin: 6rem auto 0;
+  max-width: 59rem;
+}
+
+.email {
+  width: 39.5rem;
+  height: 5rem;
+  border-color: #ffffff;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 2.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 1.6rem;
+}
+
+.submit {
+  width: 15.5rem;
+  height: 5rem;
+  border-color: #ffffff;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 2.5rem;
+  margin-left: 2.2rem;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #08aeea;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  width: 16rem;
+  height: 5rem;
+  backdrop-filter: blur(3rem);
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.2rem solid #ffffff;
+}
+
+.SectionSeventh {
+  max-width: 116.6rem;
+  min-height: 55.8rem;
+  margin: 6.7rem auto 0;
+}
+
+.CompanySmiles {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #8d8d8d;
+  cursor: default;
+}
+
+.UsersHappynes {
+  font-size: 2.6rem;
+  text-align: center;
+  color: #1a1a1b;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: #4b54fa;
+  text-decoration-style: wavy;
+  cursor: default;
+}
+
+.IIContainerForFlexbox {
+  display: flex;
+  margin: 9.3rem auto 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.UserRatingCard {
+  width: 36.8rem;
+  background: #f4f4f4;
+  min-height: 40.9rem;
+  outline: 0.5rem solid #ffff;
+}
+
+.ProfileImage {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 50%;
+  margin-top: 5.4rem;
+  margin-left: 38%;
+}
+
+.UserName {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #4b54fa;
+  margin-top: 1.8rem;
+  cursor: default;
+}
+
+.UserRatingTxT {
+  margin: 3.7rem auto 0;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #1a1a1b;
+  width: 28.7rem;
+}
+
+.DownNail {
+  border-color: #2c2c2c;
+  margin: -7rem auto 0;
+  text-align: center;
+  font-size: 12rem;
+  cursor: default;
+}
+
+.SectionEight {
+  background-image: url(./Bimages/mountains.png);
+  min-height: 60rem;
+  background-size: 100% 160%;
+}
+
+.PlanYourTrip {
+  font-size: 3.6rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 31.2rem 0 0 0;
+  cursor: default;
+}
+
+.ButtonBookNow {
+  width: 17rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  border: none;
+  background: #08aeea;
+  background: linear-gradient(-1deg, #08aeea 0%, #2af598 100%);
+  margin: 4.9rem auto 0;
+  display: block;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 1.6rem;
+}
+
+.ButtonBookNow:hover {
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  background: linear-gradient(-1deg, #08aeea 0%, #2af598 100%);
+}
+
+.LinkBookNow {
+  text-decoration: none;
+  text-align: center;
+  color: #fefeff;
+}
+
+.SectionNinth {
+  margin-top: 6.7rem;
+}
+
+.Destination {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #8d8d8d;
+  cursor: default;
+}
+
+.TourismCountries {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: default;
+}
+
+.IIIContainerForFlexbox {
+  width: 90rem;
+  margin: 6rem auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PopularTourCards {
+  width: 27.1rem;
+  display: grid;
+  align-items: end;
+  outline: 0.5rem solid #ffff;
+  min-height: 42.5rem;
+  background-color: #575757;
+  box-shadow: 2rem 2rem 3rem 1rem #afafaf;
+}
+
+.Italy {
+  background-image: url(./Bimages/Italy.jpg);
+  background-size: 100% 101%;
+  background-blend-mode: soft-light;
+}
+
+.Indonesia {
+  background-image: url(./Bimages/Indonesia.jpg);
+  background-color: #575757;
+  background-size: 100% 101%;
+  background-blend-mode: soft-light;
+}
+
+.ThailandSingapore {
+  background-image: url(./Bimages/Thailand&Singapore.jpg);
+  background-color: #575757;
+  background-size: 100% 101%;
+  background-blend-mode: soft-light;
+}
+
+.Container {
+  width: 23.6rem;
+  margin: 0 auto 1rem;
+}
+
+.NameOfTour {
+  font-size: 3rem;
+  color: #fefeff;
+  cursor: default;
+}
+
+.TourPrice {
+  font-size: 1.4rem;
+  color: #fefeff;
+  line-height: 3rem;
+}
+
+.ButtonRighArrow {
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(-5deg, #08aeea 0%, #2af598 100%);
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 83%;
+}
+
+.ButtonRighArrow:hover {
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem #f4f4f4,
+    -0.1rem -0.1rem 0.2rem 0.1rem #f4f4f4;
+}
+
+.GoogleMapIMG {
+  margin-top: 7.9rem;
+  max-height: 60rem;
+  width: 100%;
+}
+
+.Footer {
+  min-height: 34.9rem;
+  background-color: #141418;
+}
+
+.IVContainerForFlexbox {
+  border-bottom: 0.2rem solid #e8e8e8;
+  min-height: 28.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LinksCardsProperties {
+  height: 22rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  opacity: 0.5;
+}
+
+.ListMember {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #dcdbdb;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 2rem;
+}
+
+.HeaderOfList {
+  font-size: 2.5rem;
+  color: #dcdbdb;
+  font-weight: bold;
+}
+
+.EmailForSubscribe {
+  margin-bottom: 13rem;
+}
+
+.NewsLetter {
+  font-family: cursive;
+  font-size: 1.6rem;
+  cursor: default;
+  color: #ffffff;
+}
+
+.EmailSecond {
+  width: 34.31rem;
+  height: 4.6rem;
+  border-radius: 0.3rem 0 0 0.3rem;
+  font-size: 2.2rem;
+  color: #353030;
+  margin-top: 1.4rem;
+  border: none;
+}
+
+.SubmitSecond {
+  height: 4.8rem;
+  width: 5.8rem;
+  border: none;
+  margin-left: -0.3rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  font-size: 2.2rem;
+  background: #17cec5;
+  color: #ffff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.SubmitSecond:hover {
+  box-shadow: inset 0.6rem 0.6rem 0.7rem 0.5rem #e2e2e2,
+    inset -0.6rem -0.6rem 0.7rem 0.5rem #e2e2e2;
+}
+
+.LastHeaderReserved {
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2.2rem;
+  color: #dcdbdb;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .Logo {
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 0.5rem 0.5rem #23c2c2;
+    margin-left: 3.5rem;
+    line-height: 6rem;
+  }
+
+  .NavigationBar {
+    margin: 3rem 1rem 3rem 0;
+  }
+
+  .NavigationButton {
+    font-size: 1.5rem;
+    padding: 1rem 1.8rem;
+  }
+
+  .SectionOne {
+    background-size: 100% 110%;
+    padding: 0px 0 10rem 0;
+  }
+
+  .Person199Dollar {
+    max-width: 28rem;
+    font-size: 1.8rem;
+    padding: 9rem 0 4rem 0;
+  }
+
+  .DiscoverGreece {
+    font-size: 6rem;
+    margin-top: 3rem;
+  }
+
+  .LeftRightButtonContainer {
+    max-width: 92%;
+  }
+
+  .button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .UniqueExperience {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .SectionTwo {
+    row-gap: 3rem;
+    margin: 5rem auto 0;
+  }
+
+  .ServiceCards {
+    max-width: 23rem;
+    min-height: 27rem;
+  }
+
+  .Discover {
+    font-size: 1.4rem;
+  }
+
+  .HotServices {
+    font-size: 2.3rem;
+    margin-top: 0.7rem;
+  }
+
+  .ServiceCardText {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+  }
+
+  .ServiceCardIMG {
+    max-height: 15rem;
+  }
+
+  .ServiceCardsTitle {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .ServiceCardsDescription {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-top: 0.8rem;
+  }
+
+  .SectionThree {
+    margin-top: 3.5rem;
+  }
+
+  .RecomendationSiteDiscover {
+    font-size: 1.4rem;
+    padding: 5rem 0 1.84rem 0;
+  }
+
+  .RecomendationForVideo {
+    font-size: 2.3rem;
+  }
+
+  .Video {
+    max-width: 60rem;
+    height: 27rem;
+    margin-top: 4rem;
+  }
+
+  .SectionFour {
+    margin-top: 8rem;
+    height: 17rem;
+  }
+
+  .ProgressCard {
+    max-width: 14.5rem;
+    max-height: 12rem;
+  }
+
+  .ProgressNumber {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .ProgressType {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .SectionFifth {
+    margin: 2rem auto 0;
+  }
+
+  .Offer {
+    font-size: 1.4rem;
+  }
+
+  .PopularTour {
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+  }
+
+  .ContainerForFlexBox {
+    margin-top: 4rem;
+  }
+
+  .PopularTourCard {
+    width: 23rem;
+    min-height: 31rem;
+    outline: 0.5rem solid #f0efef;
+  }
+
+  .PopularTourCard:hover {
+    width: 24rem;
+    height: 33rem;
+    outline: none;
+  }
+
+  .BackGround {
+    background-size: 100% 22rem;
+    padding: 0.5rem 0 0 0.5rem;
+    height: 21rem;
+  }
+
+  .YellowAttention {
+    font-size: 1.3rem;
+    max-width: 9rem;
+  }
+
+  .Size {
+    max-width: 6rem;
+  }
+
+  .PriceOnePerson {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .PlaceForTour {
+    font-size: 1.8rem;
+  }
+
+  .TourDuration {
+    font-size: 1.2rem;
+  }
+
+  .SectionSixth {
+    margin-top: 6rem;
+    padding-bottom: 5rem;
+    background-size: 100% 35rem;
+  }
+
+  .discount {
+    font-size: 2.5rem;
+    padding-top: 4rem;
+  }
+
+  .permission {
+    font-size: 1.7rem;
+  }
+
+  .EmailSubmitContainer {
+    margin: 4rem auto 0;
+    max-width: 44.38rem;
+  }
+
+  .email {
+    width: 33rem;
+    height: 4rem;
+    border-width: 0.1rem;
+    font-size: 1.4rem;
+  }
+
+  .submit {
+    width: 9rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .submit:hover {
+    width: 9.5rem;
+    height: 3.5rem;
+  }
+
+  .SectionSeventh {
+    max-width: 116.6rem;
+    min-height: 55.8rem;
+    margin: 5rem auto 0;
+  }
+
+  .CompanySmiles {
+    font-size: 1.5rem;
+  }
+
+  .UsersHappynes {
+    font-size: 2rem;
+    margin-top: 0.7rem;
+  }
+
+  .IIContainerForFlexbox {
+    margin-top: 6rem;
+  }
+
+  .UserRatingCard {
+    width: 27rem;
+    min-height: 32rem;
+  }
+
+  .ProfileImage {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 3rem;
+  }
+
+  .UserName {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }
+
+  .UserRatingTxT {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    width: 21rem;
+  }
+
+  .DownNail {
+    margin: -4rem auto 0;
+    font-size: 9rem;
+  }
+
+  .SectionEight {
+    min-height: 36rem;
+    background-size: 100% 153%;
+  }
+
+  .PlanYourTrip {
+    font-size: 3rem;
+    padding: 16rem 0 0 0;
+  }
+
+  .ButtonBookNow {
+    width: 17rem;
+    height: 4rem;
+    margin: 4rem auto 0;
+    font-size: 1.4rem;
+  }
+
+  .ButtonBookNow:hover {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+
+  .SectionNinth {
+    margin-top: 4.5rem;
+  }
+
+  .Destination {
+    font-size: 1.4rem;
+  }
+
+  .TourismCountries {
+    font-size: 2.3rem;
+    margin-top: 0.7rem;
+  }
+
+  .IIIContainerForFlexbox {
+    width: 92%;
+    margin: 4rem auto 0;
+  }
+
+  .PopularTourCards {
+    width: 24rem;
+    min-height: 36rem;
+  }
+
+  .Container {
+    width: 96%;
+    margin: 0 auto 1rem;
+  }
+
+  .NameOfTour {
+    font-size: 2rem;
+  }
+
+  .TourPrice {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .ButtonRighArrow {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-left: 78%;
+  }
+
+  .ButtonRighArrow:hover {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem #f4f4f4,
+      -0.1rem -0.1rem 0.2rem 0.1rem #f4f4f4;
+  }
+
+  .GoogleMapIMG {
+    margin-top: 5rem;
+    max-height: 36rem;
+  }
+
+  .ListMember {
+    font-size: 1.3rem;
+  }
+
+  .hover:hover {
+    font-size: 1.5rem;
+  }
+
+  .HeaderOfList {
+    font-size: 2rem;
+  }
+
+  .EmailSecond {
+    width: 21rem;
+    height: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .SubmitSecond {
+    height: 4.2rem;
+    width: 4rem;
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 4.5rem;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .NavigationBar {
+    float: left;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .NavigationButton {
+    font-size: 1.1rem;
+    padding: 1rem 1rem;
+    pointer-events: none;
+  }
+
+  .SectionOne {
+    background-size: 100% 110%;
+    padding: 0 0 3rem 0;
+  }
+
+  .Person199Dollar {
+    max-width: 28rem;
+    font-size: 1.4rem;
+    padding: 6rem 0 4rem 0;
+  }
+
+  .DiscoverGreece {
+    font-size: 4rem;
+    margin-top: 0rem;
+  }
+
+  .button {
+    margin-top: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    pointer-events: none;
+  }
+
+  .UniqueExperience {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  .SectionTwo {
+    margin: 3rem auto 0;
+  }
+
+  .ServiceCards {
+    max-width: 17rem;
+    outline: 0.2rem solid #ffff;
+  }
+
+  .Discover {
+    font-size: 1.2rem;
+  }
+
+  .HotServices {
+    font-size: 2.3rem;
+    margin-top: 0.7rem;
+  }
+
+  .ServiceCardText {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .ServiceCardIMG {
+    max-height: 10rem;
+  }
+
+  .ServiceCardsTitle {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .ServiceCardsDescription {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 0.4rem;
+  }
+
+  .SectionThree {
+    margin-top: 3.5rem;
+  }
+
+  .RecomendationSiteDiscover {
+    font-size: 1.7rem;
+    padding: 3rem 0 1rem 0;
+  }
+
+  .RecomendationForVideo {
+    font-size: 2.3rem;
+  }
+
+  .Video {
+    margin-top: 3rem;
+    width: 84%;
+    box-shadow: none;
+  }
+
+  .SectionFour {
+    display: grid;
+    grid-template-columns: repeat(2, 16rem);
+    margin-top: 5rem;
+    border-bottom: 0.1rem solid #ebebeb;
+    min-height: 35rem;
+    row-gap: 2rem;
+  }
+
+  .ProgressNumber {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .SectionFifth {
+    max-width: 86.3rem;
+    margin: 6.6rem auto 0;
+  }
+
+  .Offer {
+    font-size: 1.6rem;
+  }
+
+  .PopularTour {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+  }
+
+  .ContainerForFlexBox {
+    display: grid;
+    width: 25rem;
+    grid-template-columns: repeat(1, 24rem);
+    row-gap: 3rem;
+    margin: 7rem auto 0;
+  }
+
+  .PopularTourCard {
+    width: 24rem;
+    min-height: 35rem;
+    pointer-events: none;
+  }
+
+  .BackGround {
+    background-size: 100% 25rem;
+    padding: 1rem 0 0 1rem;
+    height: 22rem;
+  }
+
+  .YellowAttention {
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    max-width: 8rem;
+    max-height: 2.5rem;
+  }
+
+  .Size {
+    max-width: 7rem;
+  }
+
+  .SectionSixth {
+    margin-top: 6rem;
+    padding-bottom: 5rem;
+    background-size: 100% 35rem;
+  }
+
+  .discount {
+    font-size: 2.3rem;
+    padding-top: 3rem;
+  }
+
+  .permission {
+    font-size: 1.4rem;
+  }
+
+  .EmailSubmitContainer {
+    margin: 4rem auto 0;
+    max-width: 28rem;
+  }
+
+  .email {
+    width: 28rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    display: block;
+  }
+
+  .submit {
+    width: 8rem;
+    width: 8rem;
+    margin: 3rem auto 0;
+    display: block;
+    pointer-events: none;
+    font-size: 1rem;
+  }
+
+  .SectionSeventh {
+    min-height: 90.8rem;
+    margin: 6.7rem auto 0;
+  }
+
+  .CompanySmiles {
+    font-size: 1.4rem;
+  }
+
+  .UsersHappynes {
+    font-size: 2.4rem;
+  }
+
+  .IIContainerForFlexbox {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    row-gap: 2rem;
+    margin: 6rem auto 0;
+    width: 30rem;
+  }
+
+  .UserRatingCard {
+    width: 30rem;
+  }
+
+  .ProfileImage {
+    width: 7rem;
+    height: 7rem;
+    margin-left: 39%;
+  }
+
+  .ButtonBookNow {
+    pointer-events: none;
+  }
+
+  .SectionNinth {
+    margin-top: 3rem;
+  }
+
+  .Destination {
+    font-size: 1.5rem;
+  }
+
+  .TourismCountries {
+    font-size: 2.3rem;
+  }
+
+  .IIIContainerForFlexbox {
+    width: 25rem;
+    margin: 8.1rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    row-gap: 2rem;
+  }
+
+  .PopularTourCards {
+    width: 25rem;
+    min-height: 37rem;
+  }
+
+  .ButtonRighArrow {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    pointer-events: none;
+    margin-left: 83%;
+  }
+
+  .ListMember {
+    font-size: 1.2rem;
+    pointer-events: none;
+  }
+
+  .HeaderOfList {
+    font-size: 1.5rem;
+  }
+
+  .EmailSecond {
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+  }
+
+  .SubmitSecond {
+    height: 3.7rem;
+    width: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .LastHeaderReserved {
+    font-size: 1.5rem;
+  }
+}
